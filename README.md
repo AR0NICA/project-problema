@@ -4,7 +4,7 @@
 
 ## 서론
 
-- [English Doc.](doc/en/README_en.md)
+<u>KR</u> | [EN](doc/en/README_en.md)
 
 프로블레마(Problema)는 라틴어 'Probléma(난제)'에서 이름을 따온 하이브리드 암호화 알고리즘으로, 역사적인 애니그마(Enigma) 암호 시스템의 개념적 우아함과 현대 암호학에서 가장 강력한 알고리즘으로 거론되는 AES(Advanced Encryption Standard)의 보안 특성을 결합한 것이 특징이다. 특히 한글과 영어를 교차지원하여 효과적으로 암호화하고 복호화할 수 있도록 고안되었다.
 
@@ -74,7 +74,7 @@ ubuntu@ar0nica:~/project_problema $ cd /home/ubuntu && cd /home/ubuntu/problema_
 [암호화 과정]
 입력 텍스트 (UTF-8): EB 82 98 EC 9D 98 20 6C 69 66 65 EB 8A 94 20 6C 69 6B 65 20 61 20 EC B2 9C EA B5 AD EC 9D B4 EB 8B A4 
 유니코드 변환 (UTF-8 → 코드 포인트):
-U+B098 → U+C758 → U+0020 ( ) → U+006C (l) → U+0069 (i) → U+0066 (f) → U+0065 (e) → U+B294 → U+0020 ( ) → U+006C (l) → U+0069 (i) → U+006B (k) → U+0065 (e) → U+0020 ( ) → U+0061 (a) → U+0020 ( ) → U+CC9C → U+AD6D → U+C774 → U+B2E4 → 
+U+B098 (나) → U+C758 (의) → U+0020 ( ) → U+006C (l) → U+0069 (i) → U+0066 (f) → U+0065 (e) → U+B294 (는) → U+0020 ( ) → U+006C (l) → U+0069 (i) → U+006B (k) → U+0065 (e) → U+0020 ( ) → U+0061 (a) → U+0020 ( ) → U+CC9C (천) → U+AD6D (국) → U+C774 (이) → U+B2E4 (다)
 로터 및 플러그보드 처리:
 - 플러그보드 치환
 - 8개 로터 순방향 통과
